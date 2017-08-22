@@ -10,7 +10,7 @@ import java.util.*;
  * @Date 2017/8/9
  */
 public class Point {
-
+    // TODO: 2017/8/22 用位来标记状态，位运算推箱子 
     //        1：是否存在目的地        2：是否存在箱子        4：是否存在人  0:空地  3：箱子在目的地   5：人在目的地
 
     public static final byte Empty = '0';
